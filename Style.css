@@ -1,3 +1,6 @@
+:root{
+    --ColorPrincipal: #1B396A;
+}
 html{
     box-sizing: border-box;
     font-size: 62.5%;
@@ -17,7 +20,7 @@ body{
 }
 
 .Nav-principal{
-    width: auto;
+    width: 100%;
     height: 4.5rem;
     background-color: rgb(27, 57, 106);
     display: flex;
@@ -141,4 +144,55 @@ padding-bottom: 5rem;
 .center{
     text-align: center;
     font-size: 2.5rem;
+}
+
+.Imagenes-sitios{
+ display: flex;
+ flex-direction: row;
+ justify-content: space-around ;
+ padding-bottom: 5rem;
+}
+
+.Imagen-sitio1:hover {
+    transform: scale(1.2);
+}
+
+.Imagen-sitio2:hover {
+    transform: scale(1.2);
+}
+
+.Imagen-sitio3:hover {
+    transform: scale(1.2);
+}
+
+.footer{
+    width: 100%;
+    height: 40rem;
+    background-color: var(--ColorPrincipal);
+    display: flex;
+    
+}
+
+.info{
+    color: white;
+    font-size: 2.5rem;
+    padding-left: 10rem;
+    padding-top: 2rem;
+}
+
+.direccion{
+    color: white;
+    font-size: 2rem;
+}
+
+.titulo-contacto{
+    color: white;
+    font-size: 2.5rem;
+    padding-left: 20rem;
+    padding-top: 2rem;
+}
+
+.contacto{
+    color: white;
+    font-size: 2rem;
 }
